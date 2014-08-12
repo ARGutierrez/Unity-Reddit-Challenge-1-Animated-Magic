@@ -3,20 +3,20 @@ using System.Collections;
 
 public class ColorTween : MonoBehaviour {
 
-	// Use this for initialization
 
-    Color from;
-    Color to;
+    Color fromColor;
+    Color toColor;
 
-	void Start () {
-
-        from = renderer.material.color;
-        to = Color.white;
- 
+    // Use this for initialization
+	void Start () 
+    {
+        fromColor = renderer.material.color;
+        toColor = Color.white;
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void Update () 
+    {
         if (Input.GetButtonDown("Fire1"))
         {
             StartCoroutine("Reveal");
@@ -26,7 +26,7 @@ public class ColorTween : MonoBehaviour {
     IEnumerator Reveal()
     {
         Go.to(transform, 3f, new GoTweenConfig()
-            .materialColor(to)
+            .materialColor(toColor)
             .setEaseType(GoEaseType.BounceOut)
             .setIterations(1));
         yield return new WaitForSeconds(5f);
@@ -36,7 +36,7 @@ public class ColorTween : MonoBehaviour {
     IEnumerator Hide()
     {
         Go.to(transform, 3f, new GoTweenConfig()
-            .materialColor(from)
+            .materialColor(fromColor)
             .setEaseType(GoEaseType.BounceInOut)
             .setIterations(1));
         yield return new WaitForSeconds(0f);
