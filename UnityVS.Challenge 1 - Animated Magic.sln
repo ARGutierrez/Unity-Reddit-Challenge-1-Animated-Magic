@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityVS.Challenge 1 - Animated Magic.CSharp.Plugins", "UnityVS.Challenge 1 - Animated Magic.CSharp.Plugins.csproj", "{11E8567B-F89E-8844-A871-14B87BF7ACAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityVS.Challenge 1 - Animated Magic.CSharp", "UnityVS.Challenge 1 - Animated Magic.CSharp.csproj", "{523CFA0E-4C4E-1B28-9C6A-34D8B5E131D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityVS.Challenge 1 - Animated Magic.CSharp.Editor", "UnityVS.Challenge 1 - Animated Magic.CSharp.Editor.csproj", "{4CD2C963-0AC8-9F30-A314-B95CA86C85E4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{11E8567B-F89E-8844-A871-14B87BF7ACAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11E8567B-F89E-8844-A871-14B87BF7ACAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11E8567B-F89E-8844-A871-14B87BF7ACAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11E8567B-F89E-8844-A871-14B87BF7ACAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{523CFA0E-4C4E-1B28-9C6A-34D8B5E131D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{523CFA0E-4C4E-1B28-9C6A-34D8B5E131D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{523CFA0E-4C4E-1B28-9C6A-34D8B5E131D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{523CFA0E-4C4E-1B28-9C6A-34D8B5E131D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CD2C963-0AC8-9F30-A314-B95CA86C85E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CD2C963-0AC8-9F30-A314-B95CA86C85E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CD2C963-0AC8-9F30-A314-B95CA86C85E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CD2C963-0AC8-9F30-A314-B95CA86C85E4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
